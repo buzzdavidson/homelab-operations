@@ -1,0 +1,1 @@
+# Minio provider available here: https://registry.terraform.io/providers/aminueza/minio/latest

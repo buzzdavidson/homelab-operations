@@ -21,7 +21,11 @@ variable "proxmox_hosts" {
       wol_address   = "00:00:00:00:00:00"
       description   = "Intel NUC11PAHi7"
     }
-    # pve-03 reserved for future use
+    "pve-03" = {
+      ip_address    = "10.0.0.63"
+      wol_address   = "00:00:00:00:00:00"
+      description   = "Intel NUC11PAHi7"
+    }
     "pve-04" = {
       ip_address    = "10.0.0.64"
       wol_address   = "ec:8e:b5:7a:ab:4a"
